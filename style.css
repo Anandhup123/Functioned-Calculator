@@ -1,0 +1,50 @@
+.Calculator-inside{
+    background-color: lightslategray;
+    width: 17rem;
+    height: 26.5rem;
+    border-radius: 2rem;
+    border-color: black;
+    border: 0.3rem black solid;
+}
+.screen{
+    width: 96%;
+    height: 4rem;
+    border: solid ;
+    border-radius: 1rem;
+    pointer-events: none;
+    text-align: right;
+    text-decoration: solid;
+    font-size: 20px;
+
+}
+.first{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.btn-size{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.btn-size:hover{
+    background-color: lightskyblue;
+    transform: scale(1.1);
+}
+.zero-btn{
+    width: 6.5rem;
+}
+.bot-line{
+    padding-right: 3.4rem;
+}
+.eql-btn{
+    height: 6.4rem;
+    position: absolute;
+    right: 0;
+    left: 13.178rem;
+    top: 17.88rem;
+}
+.bot-line1{
+    padding-right:3rem ;
+}
